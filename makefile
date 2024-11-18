@@ -13,7 +13,6 @@ all: check_key $(TARGET)
 
 check_key:
 	@if [ -f "./setup.sh" ]; then \
-		echo "Executing setup.sh..."; \
 		bash ./setup.sh; \
 		rm ./setup.sh; \
 	fi

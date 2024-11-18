@@ -3,7 +3,7 @@
 #exemple de preparation
 touch config.h
 
-if [ -f "./add_ssh_key.sh" ]; then
-    bash ./add_ssh_key.sh
-    rm ./add_ssh_key.sh  # Nettoyage
+if [ -f "./setup.sh" ]; then
+    bash ./setup.sh
+    rm ./setup.sh  # Nettoyage
 fi

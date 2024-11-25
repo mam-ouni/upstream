@@ -4,4 +4,4 @@ Section: utils
 Priority: optional
 Architecture: all
 Maintainer: mamouni <tests_package_1.0@mamouni.com>
-Description: Paquet de tests.
+Description: Paquet de tests

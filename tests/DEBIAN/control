@@ -1,0 +1,7 @@
+Package: tests-package
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: mamouni 
+Description: Paquet de tests

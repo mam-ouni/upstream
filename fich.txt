@@ -1,0 +1,15 @@
+echo "Nom de la machine : TWO"
+echo "Interfaces réseau et IP associées :"
+echo "enp0s3 10.0.2.15/24
+enp0s3 fe80::a00:27ff:fe3b:3335/64
+enp0s8 192.168.10.20/24
+enp0s8 fe80::a00:27ff:fe2b:5564/64"
+echo "Ports ouverts :"
+echo "udp 0.0.0.0:53147
+udp 0.0.0.0:5353
+udp [::]:39600
+udp [::]:5353
+tcp 0.0.0.0:22
+tcp 127.0.0.1:631
+tcp [::]:22
+tcp [::1]:631"
